@@ -1,139 +1,74 @@
-<p align="center">
-  <a href="https://material-ui.com/" rel="noopener" target="_blank"><img width="150" src="https://material-ui.com/static/images/material-ui-logo.svg" alt="Material-UI logo"></a></p>
-</p>
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/popular/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/Bootstrap-Blog-Template-DevBlog-Pormo.jpg" alt="Bootstrap 4 Blog Template for Developers" /></a>
 
-<h1 align="center">Material-UI</h1>
+## Theme Details & Demo
 
-<div align="center">
+**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/popular/devblog-free-bootstrap-4-blog-template-for-developers/
 
-[React](https://reactjs.org/) components that implement [Google's Material Design](https://material.io/design/introduction/).
+DevBlog is a **free Bootstrap blog template** made for developers. It provides a great reading experience for desktop and mobile users. Comes with 8 hand-picked colour schemes, you can easily customise the theme colour/styling via the source SCSS files.
 
-[![npm package](https://img.shields.io/npm/v/@material-ui/core/latest.svg)](https://www.npmjs.com/package/@material-ui/core)
-[![npm downloads](https://img.shields.io/npm/dm/@material-ui/core.svg)](https://www.npmjs.com/package/@material-ui/core)
-[![CircleCI](https://img.shields.io/circleci/project/github/mui-org/material-ui/master.svg)](https://circleci.com/gh/mui-org/material-ui/tree/master)
-[![Build Status](https://dev.azure.com/mui-org/Material-UI/_apis/build/status/mui-org.material-ui?branchName=master)](https://dev.azure.com/mui-org/Material-UI/_build/latest?definitionId=1&branchName=master)
-[![Coverage Status](https://img.shields.io/codecov/c/github/mui-org/material-ui/master.svg)](https://codecov.io/gh/mui-org/material-ui/branch/master)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1320/badge)](https://bestpractices.coreinfrastructure.org/projects/1320)
-![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/MaterialUI.svg?label=follow+Material-UI)](https://twitter.com/MaterialUI)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=mui-org/material-ui)](https://dependabot.com)
-[![PeerDependencies](https://david-dm.org/mui-org/material-ui/master/peer-status.svg?path=packages/material-ui)](https://david-dm.org/mui-org/material-ui/master?type=peer&path=packages/material-ui)
-[![Dependencies](https://david-dm.org/mui-org/material-ui/master/status.svg?path=packages/material-ui)](https://david-dm.org/mui-org/material-ui/master?path=packages/material-ui)
-[![DevDependencies](https://david-dm.org/mui-org/material-ui/master/dev-status.svg?path=packages/material-ui)](https://david-dm.org/mui-org/material-ui/master?type=dev)
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/mui-org/material-ui.svg)](https://isitmaintained.com/project/mui-org/material-ui "Average time to resolve an issue")
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/material-ui-docs/localized.svg?cache=v1)](https://translate.material-ui.com/project/material-ui-docs)
+Blogging is a great way for developers to share their ideas and promote their work or side projects. This template can help you set up a professional-looking blog in no time. No need to rely on a third-party blogging platform – get all the traffic to your own site instead. Want to get your blog online and start building your audience? Don’t miss this template!
 
-</div>
+## Author & License
 
-## Installation
+This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
-Material-UI is available as an [npm package](https://www.npmjs.com/package/@material-ui/core).
+If you'd like to **use the template without the footer attribution link**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/popular/devblog-free-bootstrap-4-blog-template-for-developers/)
 
-**[Stable channel v4](https://material-ui.com/)**
-```sh
-// with npm
-npm install @material-ui/core
+#### Follow Xiaoying
 
-// with yarn
-yarn add @material-ui/core
-```
+[Twitter](https://twitter.com/3rdwave_themes)
 
-**[v3.x](https://v3.material-ui.com/)** ([Migration from v3 to v4](https://material-ui.com/guides/migration-v3/))
+[Facebook](https://www.facebook.com/3rdwavethemes/)
 
-**[v0.x](https://v0.material-ui.com/)** ([Migration to v1](https://material-ui.com/guides/migration-v0x/))
+[Dribbble](https://dribbble.com/Xiaoying)
 
-Please note that `@next` will only point to pre-releases; to get the latest stable release use `@latest` instead.
+[Medium](https://medium.com/@3rdwave_themes)
 
-## Who sponsors Material-UI?
+[Linkedin](https://uk.linkedin.com/in/xiaoying)
 
-### Diamond 💎
 
-*3/3 slots available*
+## Latest Version
+**v1.1** - 12 Feb 2019
 
-Diamond Sponsors are those who have pledged $2,000/month and more to Material-UI.
-Please contact us at diamond@material-ui.com to subscribe to this tier.
+[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/popular/devblog-free-bootstrap-4-blog-template-for-developers/?target=changelog)
 
-### Gold 🏆
+## Colour Schemes
 
-via [Patreon](https://www.patreon.com/oliviertassinari)
+#### Colour 1 (theme-1.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-1.jpg" width="400" alt="DevBlog color 1" />
 
-<p style="display: flex; justify-content: center;">
-  <a data-ga-event-category="sponsors" data-ga-event-action="logo" data-ga-event-label="tidelift" href="https://tidelift.com/subscription/pkg/npm-material-ui?utm_source=material_ui&utm_medium=referral&utm_campaign=homepage" rel="noopener sponsored" target="_blank" style="margin-right: 16px;"><img width="96" src="https://github.com/tidelift.png?size=96" alt="tidelift" title="Enterprise-ready open source software" /></a>
-  <a data-ga-event-category="sponsors" data-ga-event-action="logo" data-ga-event-label="bitsrc" href="https://bit.dev" rel="noopener sponsored" target="_blank" style="margin-right: 16px;"><img width="96" src="https://github.com/teambit.png?size=96" alt="bitsrc" title="The fastest way to share code" /></a>
-</p>
+#### Colour 2 (theme-2.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-2.jpg" width="400" alt="DevBlog color 2" />
 
-via [OpenCollective](https://opencollective.com/material-ui)
+#### Colour 3 (theme-3.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-3.jpg" width="400" alt="DevBlog color 3" />
 
-<p style="display: flex; justify-content: center; flex-wrap: wrap;">
-  <a data-ga-event-category="sponsors" data-ga-event-action="logo" data-ga-event-label="callemall" href="https://www.call-em-all.com" rel="noopener sponsored" target="_blank" style="margin-right: 16px;"><img src="https://images.opencollective.com/proxy/images?src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2Ff4053300-e0ea-11e7-acf0-0fa7c0509f4e.png&height=100" alt="call-em-all" title="The easy way to message your group" width="100" loading="lazy"></a>
-</p>
+#### Colour 4 (theme-4.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-4.jpg" width="400" alt="DevBlog color 4" />
 
-Gold Sponsors are those who have pledged $500/month and more to Material-UI.
+#### Colour 5 (theme-5.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-5.jpg" width="400" alt="DevBlog color 5" />
 
-### There is more!
+#### Colour 6 (theme-6.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-6.jpg" width="400" alt="DevBlog color 6" />
 
-See the full list of [our backers](https://material-ui.com/discover-more/backers/).
+#### Colour 7 (theme-7.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-7.jpg" width="400" alt="DevBlog color 7" />
 
-## Usage
+#### Colour 8 (theme-8.css)
+<img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/devblog-theme-8.jpg" width="400" alt="DevBlog color 8" />
 
-Here is a quick example to get you started, **it's all you need**:
+## Features
 
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
+-  Fully Responsive
+-  HTML5 + CSS3
+-  Built on Bootstrap 4
+-  **SCSS** source files included
+-  8 Colour Schemes
+-  1000+ FontAwesome 5 icons
+-  Compatible with all modern browsers
 
-function App() {
-  return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
-  );
-}
-
-ReactDOM.render(<App />, document.querySelector('#app'));
-```
-
-Yes, it's really all you need to get started as you can see in this live and interactive demo:
-
-[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4j7m47vlm4)
-
-## Questions
-
-For *how-to* questions and other non-issues,
-please use [StackOverflow](https://stackoverflow.com/questions/tagged/material-ui) instead of Github issues.
-There is a StackOverflow tag called "material-ui" that you can use to tag your questions.
-
-## Examples
-
-Are you looking for an example project to get started?
-[We host some](https://material-ui.com/getting-started/example-projects/).
-
-## Documentation
-
-Check out our [documentation website](https://material-ui.com/).
-
-## Premium Themes
-
-You can find complete templates & themes in our [premium themes](https://themes.material-ui.com/) section.
-
-## Contributing
-
-Read our [contributing guide](/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Material-UI.
-
-Notice that contributions go far beyond pull requests and commits.
-Although we love giving you the opportunity to put your stamp on Material-UI, we also are thrilled to receive a variety of [other contributions](https://material-ui.com/getting-started/faq/#material-ui-is-awesome-how-can-i-support-the-project).
-
-## Changelog
-
-Recently Updated?
-Please read the [changelog](https://github.com/mui-org/material-ui/releases).
-
-## Roadmap
-
-The future plans and high priority features and enhancements can be found in the [roadmap](https://material-ui.com/discover-more/roadmap/) file.
-
-## License
-
-This project is licensed under the terms of the
-[MIT license](/LICENSE).
+## Credits
+- [Bootstrap](https://getbootstrap.com/)
+- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
+- [Highlight.js](https://highlightjs.org/)
