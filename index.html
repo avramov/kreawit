@@ -15,8 +15,16 @@
     <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
     
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-2.css">
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-2.css">
+	
+	<script type="text/javascript" >
 
+		var currentPage = window.sessionStorage.getItem("currentPage");
+		if (currentPage == null) {
+			currentPage = "home";
+			window.sessionStorage.setItem("currentPage", currentPage);
+		}
+	</script> 
 </head> 
 
 <body>
@@ -49,34 +57,34 @@
 				
 				<ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
-					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
+					    <a class="nav-link" href="#home"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Posts</a>
+					    <a class="nav-link" href="#blogposts"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Posts</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="projects.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Featured Projects</a>
+					    <a class="nav-link" href="projects.html"><i class="fas fa-code fa-fw mr-2"></i>Featured Projects</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="videos.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Videos</a>
+					    <a class="nav-link" href="#videos"><i class="fas fa-video fa-fw mr-2"></i>Videos</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="podcasts.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Podcasts</a>
+					    <a class="nav-link" href="podcasts.html"><i class="fas fa-headphones-alt fa-fw mr-2"></i>Podcasts</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Kreawit</a>
+					    <a class="nav-link" href="#about"><i class="fas fa-user fa-fw mr-2"></i>About Kreawit</a>
 					</li>
 				</ul>
 				
-				<div class="my-2 my-md-3">
-				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
-				</div>
 			</div>
 		</nav>
     </header>
-    
+	
+	
     <div class="main-wrapper">
-	    <section class="cta-section theme-bg-light py-5">
+
+
+	    <section id="home" class="cta-section theme-bg-light py-5">
 		    <div class="container text-center">
 			    <h2 class="heading">Welcome to Kreawit</h2>
 			    <div class="intro">Below you will find links to our latest posts. Subscribe and get our latest posts (blog, project, video or podcast) in your inbox.</div>
@@ -90,8 +98,9 @@
 		    </div><!--//container-->
 		</section>
 		
-		<!--
-	    <section class="blog-list px-3 py-5 p-md-5">
+		
+	    <section id="blogposts" class="blog-list px-3 py-5 p-md-5">
+		<h3>Blog posts</h3>
 		    <div class="container">
 			    <div class="item mb-5">
 				    <div class="media">
@@ -104,8 +113,12 @@
 					    </div>
 				    </div>
 				</div>
-				
-			
+		    </div>
+			</section>
+		
+			<section id="videos" class="blog-list px-3 py-5 p-md-5">
+				<h3>Videos</h3>
+				<div class="container">
 			    <div class="item mb-5">
 				    <div class="media">
 					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="assets/images/blog/blog-post-thumb-2.jpg" alt="image">
@@ -117,16 +130,26 @@
 					    </div>
 				    </div>
 				</div>
-			-->
+				</div>			
+			</section>
 			   
-			    
+			    <!--
 			    <nav class="blog-nav nav nav-justified my-5">
 				  <a class="nav-link-prev nav-item nav-link d-none rounded-left" href="#">Previous<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
 				  <a class="nav-link-next nav-item nav-link rounded" href="blog-list.html">Next<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
 				</nav>
-				
+				-->
+
+		
+
+	    <section id="about" class="blog-list px-3 py-5 p-md-5">
+			<h3 class="title mb-3">About Kreawit</h3>
+		    <div class="container">
+			    <p>We are a group of Fullstack developers and Software development enthusiasts with a passion for innovation within IoT, AI, Mobile and Web Application Development. Our pages are not supposed to replace Stack Overflow but arise from our wish to share our wide experience in IoT, Mobile and Web application development. The pages will also provide a number of projects that can function as innovation kick starter for people starting development in the respective areas. We believe in knowledge sharing and hope that other developers with similar interests will contribute to our common knowledge base. </p>
+			    <figure><img class="img-fluid" src="assets/images/about-me.jpg" alt="image"></figure>
 		    </div>
-	    </section>
+
+		</section>
 	    
 	    <footer class="footer text-center py-2 theme-bg-dark">
 		   
