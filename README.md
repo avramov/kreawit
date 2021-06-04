@@ -1,2 +1,0 @@
-## Page for the Kreawit group ##
-** We are a group of Fullstack developers and Software development enthusiasts with a passion for innovation within IoT, AI, Mobile and Web Application Development. **
